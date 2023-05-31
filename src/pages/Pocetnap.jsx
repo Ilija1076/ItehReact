@@ -1,11 +1,18 @@
-import React from 'react';
+import React from 'react'
 
-const Pocetna = () => {
+function Pocetna() {
   return (
-    <div>
-      <h1>Dobrodošli na početnu stranicu!</h1>
-    </div>
-  );
-};
+      <section className="company-section">
+          <h2>About Our Company</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget
+            tristique quam. Curabitur placerat pharetra tellus, ut commodo arcu
+            tincidunt et. Nulla facilisi.
+          </p>
+        </section>
+  )
+}
+
+
 
 export default Pocetna;

@@ -1,9 +1,10 @@
-import React from 'react';
+import { FaUserAstronaut } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg  navbar-light bg-light bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
       <div className="container">
+      <FaUserAstronaut style={{ color: 'purple' }} />
         <a className="navbar-brand" href="/">Universe</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

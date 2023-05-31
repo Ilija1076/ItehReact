@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("./img/universe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #741585;
+  justify-content: space-between;
+  padding: 5px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer-left {
+  flex: 1;
+}
+.footer-right {
+  margin-right: 5px;
+}
+
+.footer-right a {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.company-section {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.company-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.company-section p {
+  font-size: 18px;
 }

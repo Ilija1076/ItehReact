@@ -1,60 +1,25 @@
-import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import Pocetna from "./pages/Pocetnap";
 import Kontakt from "./pages/Kontaktp";
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 function App() {
-  const Navbar = () => {
-    return (
+  return (
+    <BrowserRouter>
       <div>
         <Navbar />
+        <Routes>
+          <Route path="/" element={<Pocetna />} />
+          <Route path="/kontakt" element={<Kontakt />} />
+        </Routes>
+        <Footer />
       </div>
-    );
-  };
+    </BrowserRouter>
+  );
 }
 
-/*    const [ime, setIme] = useState("");
-    const [email, setEmail] = useState("");
-
-    const handleImeChange = (e) => {
-      setIme(e.target.value);
-    };
-
-    const handleEmailChange = (e) => {
-      setEmail(e.target.value);
-    };
-
-    const handleSubmit = (e) => {
-      e.preventDefault();
-      // Ovde možete implementirati logiku za slanje podataka na server
-    };
-
-    return (
-      <div>
-        <h1>Kontaktirajte nas</h1>
-        <form onSubmit={handleSubmit}>
-          <label>
-            Ime:
-            <input type="text" value={ime} onChange={handleImeChange} />
-          </label>
-          <br />
-          <label>
-            Email:
-            <input type="email" value={email} onChange={handleEmailChange} />
-          </label>
-          <br />
-          <button type="submit">Pošalji</button>
-        </form>
-      </div>
-    );
-  };
-  return (
-    <div>
-      <Navbar />
-    </div>
-  );
-*}
-*/
 export default App;

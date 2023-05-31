@@ -1,10 +1,7 @@
-import React from 'react';
-
 const Kontakt = () => {
   return (
     <div>
-      <h1>Kontaktirajte nas</h1>
-      <p>Popunite formular ispod kako biste nas kontaktirali:</p>
+      <h1>Popunite formular ispod kako biste nas kontaktirali:</h1>
       {/* Ovde možete dodati formu */}
     </div>
   );
