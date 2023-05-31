@@ -1,11 +1,21 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Pocetna from "./pages/Pocetnap";
+import Kontakt from "./pages/Kontaktp";
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
-  const Kontakt = () => {
-    const [ime, setIme] = useState("");
+  const Navbar = () => {
+    return (
+      <div>
+        <Navbar />
+      </div>
+    );
+  };
+}
+
+/*    const [ime, setIme] = useState("");
     const [email, setEmail] = useState("");
 
     const handleImeChange = (e) => {
@@ -43,8 +53,8 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* Other components or content */}
     </div>
   );
-}
+*}
+*/
 export default App;
