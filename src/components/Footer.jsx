@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="container-foot">
         <div className="footer-left">
           {/* Information */}
           <h3>Universe</h3>
@@ -19,15 +19,15 @@ const Footer = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/about">About Us</a>
+              <a href="/contact">Contact</a>
             </li>
             <li>
-              <a href="/services">Services</a>
+              <a href="/destinations">Destinations</a>
             </li>
             {/* Add more links as needed */}
           </ul>
         </div>
-      </div>
+        </div>
     </footer>
   );
 };

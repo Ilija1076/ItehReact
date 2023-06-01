@@ -2,6 +2,9 @@ body {
   background-image: url("./img/universe.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
@@ -10,33 +13,128 @@ body {
   justify-content: space-between;
   padding: 5px;
   color: white;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  margin-top: auto;
 }
 .footer-left {
   flex: 1;
+  margin-right: 25ch;
+  margin-left: 50ch;
+  padding: 2px;
 }
 .footer-right {
-  margin-right: 5px;
+  margin-left: 50ch;
+  padding: 5px;
+}
+
+.container-foot {
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
 .footer-right a {
   color: white;
+  padding: 10 px;
 }
 .company-section {
-  background-color: #f9f9f9;
+  background-color: transparent;
   padding: 40px;
   text-align: center;
-  color: #333;
+  color: white;
 }
 
-.company-section h2 {
-  font-size: 24px;
+.company-section h1 {
+  font-size: 80px;
   margin-bottom: 20px;
 }
 
 .company-section p {
-  font-size: 18px;
+  font-size: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #4f1073;
+}
+
+.contact-page h1 {
+  color: white;
+  text-align: center;
+}
+
+.image-section {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  margin-left: 20em;
+}
+
+.image-container img {
+  border: 1px solid #711781;
+  border-radius: 5px;
+}
+
+.image-container p {
+  color: white;
+  font-size: 25px;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.paragraphs p {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.paragraphs button {
+  padding: 10px 20px;
+  background-color: #6f42c1;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.paragraphs button:hover {
+  background-color: #4f1073;
 }
