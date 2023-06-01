@@ -138,3 +138,82 @@ body {
 .paragraphs button:hover {
   background-color: #4f1073;
 }
+
+.destinations-container {
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+
+.destinations-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.destinations-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.destination-card {
+  width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.destination-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.destination-image {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.filter-container {
+  margin-bottom: 20px;
+}
+.destination-description {
+  font-size: 16px;
+}
+
+.suggestion-section {
+  margin-top: 30px;
+}
+
+.suggestion-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.suggestion-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestion-textarea {
+  width: 300px;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.suggestion-submit-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.suggestion-submit-btn:hover {
+  background-color: #0056b3;
+}
