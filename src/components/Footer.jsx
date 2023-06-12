@@ -5,14 +5,12 @@ const Footer = () => {
     <footer className="footer">
       <div className="container-foot">
         <div className="footer-left">
-          {/* Information */}
           <h3>Universe</h3>
           <p>Address: Above and beyond</p>
           <p>Phone: +123456789</p>
           <p>Email: visituniverse@universe.com</p>
         </div>
         <div className="footer-right">
-          {/* Links */}
           <h3>Links</h3>
           <ul>
             <li>
@@ -24,7 +22,6 @@ const Footer = () => {
             <li>
               <a href="/destinations">Destinations</a>
             </li>
-            {/* Add more links as needed */}
           </ul>
         </div>
         </div>

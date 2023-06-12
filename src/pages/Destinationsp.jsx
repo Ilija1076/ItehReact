@@ -6,7 +6,6 @@ const Destinations = () => {
   const [filter, setFilter] = useState('');
   const [suggestion, setSuggestion] = useState('');
 
-  // Sample planets data
   const planets = [
     { name: 'Mercury', image: image, description: 'Planet Mercury description' },
     { name: 'Venus', image: image, description: 'Planet Venus description' },
@@ -36,7 +35,6 @@ const Destinations = () => {
 
   const handleSubmitSuggestion = (event) => {
     event.preventDefault();
-    // Do something with the suggestion value, e.g., send it to a server
     console.log('Suggestion:', suggestion);
     setSuggestion('');
   };
